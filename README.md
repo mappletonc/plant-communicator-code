@@ -19,6 +19,8 @@ void setup(){
 Set up will initialize the leds & calibrate the two sensors: The YL-69 moisture sensor and the DHT11 temp and humidity sensor. This DHT11 sensor is on the top right in the attached image. The orange wire will connect the signal pin to the digital 2 pin.  The YL-69 moisture sensor is attached to the breadboard in the bottom right corner of the image using a potentiometer. The potentiometer’s signal pin is connected to the A0 analog pin with the yellow wire.
 The leds are powered using the green wires connected to the digital 3 and 4 pins, which is controlled by the code below
 
+Image : https://github.com/mappletonc/plant-communicator-code/blob/main/prototype%20image.jpeg
+
 pinMode(3, OUTPUT); //green led
 pinMode(4, OUTPUT); //red led
 
