@@ -1,7 +1,7 @@
 The code begins with the initialization of the analog pin that feeds information from the moisture sensor to the Arduino board, and consequently to the serial monitor.  Then the next line of code will set the threshold that corresponds to the YL-69 sensor. This sensor's range is 0-1023 with the highest point indicating the driest environment. The threshold can be adapted based on the type of plant and how much water a plant requires.  
 
 int moisturePin = A0; 
-int threshold = 950;
+int threshold = 250;
 
 
 The following portion of the code is to initialize the use of the DHT sensor—ie the device that measures humidity and temperature. The first line includes the library relevant to the sensor, the following line indicates which pin the sensor is connected to, and the final line defines the type of DHT Sensor that is being used. 
