@@ -5,7 +5,7 @@ int moisturePin = A0;
 
 // This is a set threshold that coresponds to the YL-69 sensor. This sensor's range is 0-1023 with the highest point indicating the driest environment.
 // This threshold can be adapted based on the type of plant/ how much water a plant requires.  
-int threshold = 950;
+int threshold = 250;
 
 
 #include "DHT.h"
